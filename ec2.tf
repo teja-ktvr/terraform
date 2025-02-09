@@ -5,7 +5,6 @@ resource "aws_instance" "this" {
     tags = {
         Name = "terraform-demo"
     }
-  
 }
 
 resource "aws_security_group" "allow-tls" {
